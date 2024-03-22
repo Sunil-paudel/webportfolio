@@ -69,13 +69,17 @@ export default function Home() {
       </div>
 
       <div className="absolute bottom-0 right-0 z-[10]">
-        <Image
-          src="/horse.png"
-          alt="horse"
-          height={300}
-          width={300}
-          className="absolute right-55 top-40"
-        />
+      <Image
+  src="/horse.png"
+  alt="horse"
+  height={300}
+  width={300}
+  style={{ width: "auto", height: "auto" }} // Ensure aspect ratio is maintained
+  className="absolute right-55 top-40"
+/>
+
+
+
 
         <Image src="/cliff.webp" alt="cliff" width={480} height={480} />
       </div>
@@ -91,12 +95,13 @@ export default function Home() {
       </div>
 
       <Image
-        src="/stars.png"
-        alt="stars"
-        height={300}
-        width={300}
-        className="absolute top-0 left-0 z-[10]"
-      />
+  src="/stars.png"
+  alt="stars"
+  height={300}
+  width={300}
+  style={{ width: "auto", height: "auto" }} // Ensure aspect ratio is maintained
+  className="absolute top-0 left-0 z-[10]"
+/>
     </main>
   );
 }

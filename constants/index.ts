@@ -81,6 +81,7 @@ export const Socials = [
     name: "linkedln",
     src: "/linkedln.png",
     url:"https://www.linkedin.com/in/sunil-paudel-143043184/"
+    
   },
   {
     name: "Facebook",
