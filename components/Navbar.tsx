@@ -21,13 +21,13 @@ const Navbar = () => {
       </div>
 
      
-      <h1 className="text-white text-[25px] font-semibold">
-          Sunil Paudel{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
-            {" "}
-            Fullstack Developer/Devops{" "}
-          </span>
-        </h1>
+      <h1 className="text-white text-[25px] font-semibold hidden sm:block">Sunil Paudel{" "}
+  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
+    {" "}
+    Developer{" "}
+  </span>
+</h1>
+
         <div className="flex flex-row gap-5 mb-2">
         {Socials.map((social) => (
           <a key={social.name} href={social.url} target="_blank" rel="noopener noreferrer">

@@ -11,9 +11,8 @@ export default function Home() {
         style={{ backgroundImage: "url(/main-bg.webp)" }}
       >
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
-          <h1 className="text-[50px] text-white font-semibold">
-          Get to Know ME😊
-          </h1>
+        <h1 className="text-[50px] text-white font-semibold hidden sm:block md:block">Get to Know ME</h1>
+
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
               Hey there! I'm Sunil Paudel, a software engineer with a Bachelor's degree in Information Technology from Victoria University. 
