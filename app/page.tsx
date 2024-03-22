@@ -15,7 +15,7 @@ export default function Home() {
 
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
-              Hey there! I'm Sunil Paudel, a software engineer with a Bachelor's degree in Information Technology from Victoria University. 
+              Hey there! I am Sunil Paudel, a software engineer with a Bachelor&apos;s  degree in Information Technology from Victoria University. 
               I specialize in software engineering and have experience collaborating with cross-functional teams, including BA, DevOps, project managers, and developers, using agile methodology with tools like zira and confluence.
             </span>
           <p className="text-gray-200 hidden md:block">
