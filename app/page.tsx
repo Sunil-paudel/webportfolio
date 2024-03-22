@@ -12,15 +12,15 @@ export default function Home() {
       >
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
           <h1 className="text-[50px] text-white font-semibold">
-            Make anything possible with
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
-              {" "}
-              Web Development
-            </span>
+          Get to Know ME😊
           </h1>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
+              {" "}
+              Hey there! I'm Sunil Paudel, a software engineer with a Bachelor's degree in Information Technology from Victoria University. 
+              I specialize in software engineering and have experience collaborating with cross-functional teams, including BA, DevOps, project managers, and developers, using agile methodology with tools like zira and confluence.
+            </span>
           <p className="text-gray-200 hidden md:block">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            I have expertise working with nextjs 14, react, tailwind, typescript, javascript, AWS, Git, postgres or mongodb, REST API, prompt engineering, nodejs, GCP(google cloud platform) etc.
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link

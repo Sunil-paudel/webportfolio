@@ -78,38 +78,45 @@ export const SkillData = [
 
 export const Socials = [
   {
-    name: "Discord",
-    src: "/instagram.svg",
+    name: "linkedln",
+    src: "/linkedln.png",
+    url:"https://www.linkedin.com/in/sunil-paudel-143043184/"
   },
   {
     name: "Facebook",
     src: "/facebook.svg",
+    url:"https://www.facebook.com/profile.php?viewas=100000686899395&id=100006884830708"
+
   },
   {
-    name: "Instagram",
-    src: "/discord.svg",
-  },
+    name: "Phone",
+    src: "/phonelogo.png",
+    url: "tel:+61413177566"
+  }
+  
+
+  
 ];
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    title: "PAC(personal Assistant",
+    text: "An university project created with openai API integration and prompt enginerring to help me in web developemt.",
+    src: "/chatbot.PNG",
   },
   {
-    title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    title: "VU scholarship app",
+    text: "Application to provide information to VU student about the eligible awards and scholarship",
+    src: "/Vuscholarshipwebsite.PNG",
   },
   {
-    title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
+    title: "Portfolio generator for IT People-Live Industry project",
+    text: "Created this website for client, using nextjs, adonis, OAuth, AWS with big git repository and large team.",
+    src: "/portfoliogenscreen.PNG",
   },
   {
-    title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    title: "Unity education center",
+    text: "education LMS with Block model",
+    src: "/unityedu.PNG",
   },
 ];
 
